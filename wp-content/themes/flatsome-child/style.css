@@ -1,0 +1,53 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+.row{max-width: 1300px !important;}
+.container{max-width: 1300px !important;}
+.row-collapse>.col {padding: 0 15px 30px !important;}
+ul li{list-style-type: none;}
+ul.nav-custome .first{font-weight:bold;margin-left:1.3em !important}
+ul.nav-custome li{margin-bottom:10px}
+.menu-item-has-block .nav-dropdown{width:1020px;border-radius: 10px;}
+.box-product-hot>.col-inner {border: 1px solid #dd042b;}
+.box-product-hot .products-hot .col-inner{background-color:#fff;border-radius:10px;padding:3px}
+.banner-left{max-width:20%}
+.banner-center{min-width:55%;padding-right:0}
+.banner-center img{border-radius: 10px;}
+.banner-right .img-inner{border-radius: 10px;}
+.banner-right .img{margin-bottom:5px!important}
+.header-wrapper:not(.stuck) .header-vertical-menu__fly-out{margin-top: 10px;border-radius: 10px;}
+.header-vertical-menu__fly-out .nav-vertical-fly-out > li:first-child.menu-item > a:hover {border-top-right-radius: 10px;border-top-left-radius: 10px;}
+.header-vertical-menu__fly-out .nav-vertical-fly-out > li:last-child.menu-item > a:hover {border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}
+/*.header-vertical-menu__opener{display:none}*/
+.header-bottom{min-height:0!important}
+#menu-main-menu{font-size:19px}
+.header-product{position: relative;}
+.header-product h2{font-size: 22px;color: #333;font-weight: 600;padding: 13px 10px;text-transform: uppercase;margin-bottom: 0;display: inline-block;width: auto;}
+.header-product ul {float: right;overflow: hidden;margin-bottom: 0;padding: 10px;}
+.header-product ul li{display: inline-block;vertical-align: middle;font-size: 13px;padding: 4px 10px;margin-left: 0;font-family: arial;background-color: #f7f4f4;border-radius: 10px;margin-right: 5px;}
+.header-product ul li:hover{background-color:#288ad6;}
+.header-product ul li a:hover{background-color:#288ad6; color:#000}
+.header-product .last{background-color:#288ad6}
+.product-home .box-image{border:5px solid #288ad6;border-radius: 10px}
+.row-xsmall>.flickity-viewport>.flickity-slider>.col{padding:0 10px 20px !important}
+.add-to-cart-button a{background-image:url(http://localhost/meomaystore/wp-content/uploads/2024/08/icon-cart.png);background-repeat:no-repeat;background-color:#ff9703!important;width: 35px;height: 35px;background-size: 25px 25px;border-radius: 50%;background-position: center;border: 1px solid #ff9703 !important;margin-top:15px !important}
+.add-to-cart-button p {margin-top:20px;font-weight:bold}
+.add-to-cart-button .instock-custom{float:right; color: #139d77}
+.add-to-cart-button .outstock-custom  {color: red;text-align:center}
+.add-to-cart-button a.added_to_cart:after{content:""}
+.box-image .out-of-stock-label{display:none}
+ins .woocommerce-Price-amount bdi{color:red;font-size: 18px}
+.price-wrapper .price{font-family:Arial}
